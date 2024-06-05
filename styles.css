@@ -20,17 +20,18 @@ header h1 {
 
 #work-samples {
     margin-top: 2rem;
+    padding-top: 5rem; /* Added padding to ensure the content is not cut off */
 }
 
 #work-samples h2 {
     font-size: 3rem;
-    color: #fff;
+    color: #6a11cb;
     margin-bottom: 1rem;
 }
 
 #work-samples h5 {
     font-size: 1.75rem;
-    color: #fff;
+    color: #2575fc;
 }
 
 footer {
