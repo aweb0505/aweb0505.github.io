@@ -18,20 +18,32 @@ header h1 {
     margin: 0;
 }
 
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
 #work-samples {
     margin-top: 2rem;
-    padding-top: 5rem; /* Added padding to ensure the content is not cut off */
+    padding-top: 1rem; /* Added padding to ensure the content is not cut off */
 }
 
 #work-samples h2 {
     font-size: 3rem;
-    color: #6a11cb;
+    color: #6c757d; /* Changed color to gray */
     margin-bottom: 1rem;
+    padding-bottom: 7rem; /* Increased padding to the bottom of the Work Samples text */
 }
 
 #work-samples h5 {
     font-size: 1.75rem;
-    color: #2575fc;
+    font-weight: bold;
+    color: #6c757d; /* Changed color to gray */
 }
 
 footer {
@@ -39,6 +51,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer p {
@@ -47,4 +62,18 @@ footer p {
 
 footer p.small {
     font-size: 0.75rem;
+}
+
+footer .contact-info {
+    text-align: left;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .contact-info a:hover {
+    color: #007bff;
 }
