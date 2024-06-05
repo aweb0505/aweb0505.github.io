@@ -28,6 +28,10 @@ header h1 {
     color: #007bff;
 }
 
+#welcome {
+    margin-top: 2rem; /* Added margin to provide buffer above the text */
+}
+
 #work-samples {
     margin-top: 2rem;
     padding-top: 1rem; /* Added padding to ensure the content is not cut off */
